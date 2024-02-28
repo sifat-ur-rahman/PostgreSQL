@@ -24,6 +24,11 @@ ALTER TABLE person
 ALTER TABLE person 
     ADD COLUMN country VARCHAR(25) DEFAULT 'Bangladesh' NOT NULL
 
-
+--add new data in table 
 INSERT INTO  person (user_name,  age, email)
 VALUES ('tasnim', 18, 't@email.com' )
+
+
+--delete a COLUMN in a TABLE
+ALTER TABLE person 
+    DROP COLUMN email
