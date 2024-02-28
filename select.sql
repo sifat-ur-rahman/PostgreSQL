@@ -21,3 +21,7 @@ SELECT * FROM students
 
 SELECT upper(first_name), * FROM students
 
+SELECT concat(first_name, ' ', last_name) FROM students
+
+
+SELECT avg(age) FROM students
