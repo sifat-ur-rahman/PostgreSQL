@@ -5,4 +5,19 @@ SELECT * FROM students
 SELECT email as student_email FROM students
 
 
-SELECT age FROM students ORDER BY age ASC
+SELECT * FROM students ORDER BY age DESC
+
+SELECT * FROM students ORDER BY dob ASC
+
+SELECT DISTINCT country FROM students
+
+SELECT * FROM students
+    WHERE country = 'USA'
+
+
+SELECT * FROM students
+    WHERE grade = 'A' AND  course = 'Math'
+
+
+SELECT upper(first_name), * FROM students
+
